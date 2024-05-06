@@ -12,7 +12,7 @@ import java.util.List;
 public class BookController {
     @Autowired
     private BookService bookService;
-    //something
+    //something went wrong
 
     @GetMapping
     public List<BookEntity> getAllBooks(){
